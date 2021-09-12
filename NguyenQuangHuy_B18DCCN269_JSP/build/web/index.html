@@ -9,7 +9,7 @@
         <p>To join our email list, enter your name and
             email address below. <br>
             Then, click on the Submit button.</p>
-        <!--        <form action="addToEmailList" method="post">
+        <!--        <form action="display_email_entry.jsp" method="get">
                     <table cellspacing="5" border="0">
                         <tr>
                             <td align="right">First name:</td>
@@ -30,9 +30,7 @@
                         </tr>
                     </table>
                 </form>-->
-
-
-        <form action="displayMusicChoices" method="post">
+        <form action="display_music_choices.jsp" method="get">
             <table cellspacing="5" border="0">
                 <tr>
                     <td align="right">First name:</td>
@@ -47,15 +45,15 @@
                     <td><input type="text" name="emailAddress"></td>
                 </tr>
                 <tr>
-                <td align="right"><p>I am interested in these types of music</p></td>
-                <td>
-                    <select name="music" multiple>
-                        <option value="Rock,">Rock</option>
-                        <option value="Country">Country</option>
-                        <option value="Bluegrass">Bluegrass</option>
-                        <option value="Folk">Folk</option>
-                    </select>
-                </td>
+                    <td align="right"><p>I am interested in these types of music</p></td>
+                    <td>
+                        <select name="music" multiple>
+                            <option value="Rock,">Rock</option>
+                            <option value="Country">Country</option>
+                            <option value="Bluegrass">Bluegrass</option>
+                            <option value="Folk">Folk</option>
+                        </select>
+                    </td>
                 </tr>
                 <tr>
                     <td></td>
